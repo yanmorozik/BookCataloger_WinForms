@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81E9C316-EFC8-482F-9006-E9FEDF217B50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>book_cataloger</RootNamespace>
+    <AssemblyName>book_cataloger</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Book.cs" />
+    <Compile Include="Interfaces\IMainModel.cs" />
+    <Compile Include="Interfaces\IMainView.cs" />
+    <Compile Include="Interfaces\IModelFindBook.cs" />
+    <Compile Include="Interfaces\IViewAddBook.cs" />
+    <Compile Include="Interfaces\IModelAddBook.cs" />
+    <Compile Include="Interfaces\IViewFindBook.cs" />
+    <Compile Include="Models\ModelAddBook.cs" />
+    <Compile Include="Models\ModelFindBook.cs" />
+    <Compile Include="Presenters\PresenterFindBook.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SerializableFile.cs" />
+    <Compile Include="Views\FindBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FindBookForm.Designer.cs">
+      <DependentUpon>FindBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="Views\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ModelMain.cs" />
+    <Compile Include="Presenters\PresenterMain.cs" />
+    <Compile Include="Views\AddBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddBookForm.Designer.cs">
+      <DependentUpon>AddBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presenters\PresenterAddBook.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru-Ru.resx" />
+    <EmbeddedResource Include="Views\AddBookForm.resx">
+      <DependentUpon>AddBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FindBookForm.resx">
+      <DependentUpon>FindBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Images.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock-949118068_d_850.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iStock-949118068_d_8501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knigi-min_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-3d-geometry-hi-res-wallpaper-fresh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-3d-geometry-hi-res-wallpaper-fresh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Без названия %282%292.png" />
+    <None Include="Resources\Без названия %282%291.jpg" />
+    <None Include="Resources\Без названия %282%291.png" />
+    <None Include="Resources\Без названия %282%29.png" />
+    <None Include="Resources\standartbook.jpg" />
+    <None Include="Resources\Image1.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\depositphotos_4784329-stock-photo-nice-room.jpg" />
+    <None Include="Resources\depositphotos_23835301-stock-illustration-seamless-book-pattern-or-background.jpg" />
+    <None Include="Resources\pngtree-fresh-hand-drawn-book-dot-advertising-background-backgroundfreshsimplecirclebookhand-paintedlovelyknow-how-image_73514.jpg" />
+    <None Include="Resources\65-best-books3.jpg" />
+    <None Include="Resources\knigi-makro-fon-4.jpg" />
+    <None Include="Resources\depositphotos_7717192-stock-photo-old-book-on-a-wooden.jpg" />
+    <None Include="Resources\unnamed %281%29.jpg" />
+    <None Include="Resources\Без названия %283%291.jpg" />
+    <None Include="Resources\izd.jpg" />
+    <None Include="Resources\Без названия %285%29.jpg" />
+    <None Include="Resources\Без названия %284%292.jpg" />
+    <None Include="Resources\new-3d-geometry-hi-res-wallpaper-fresh2.jpg" />
+    <None Include="Resources\65-best-books2.jpg" />
+    <None Include="Resources\books21.jpg" />
+    <None Include="Resources\книги1.jpg" />
+    <None Include="Resources\Cover_Books-1.jpg" />
+    <None Include="Resources\e7b075af53a46b210fb5a13c2771cf91.jpg" />
+    <None Include="Resources\images %281%291.jpg" />
+    <None Include="Resources\5d37b4b4335b75009922131.png" />
+    <None Include="Resources\книги.jpg" />
+    <None Include="Resources\books2.jpg" />
+    <None Include="Resources\65-best-books1.jpg" />
+    <None Include="Resources\10-open-libraries.png" />
+    <None Include="Resources\Без названия %284%291.jpg" />
+    <None Include="Resources\Cover_Books-.jpg" />
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\65-best-books.jpg" />
+    <None Include="Resources\22b18ce70e474e7c961da7540a90be97.jpg" />
+    <None Include="Resources\Без названия %284%29.jpg" />
+    <None Include="Resources\Без названия %283%29.jpg" />
+    <None Include="Resources\5d37b4b4335b7500992213.png" />
+    <None Include="Resources\Без названия %282%29.jpg" />
+    <None Include="Resources\Без названия %281%29.jpg" />
+    <None Include="Resources\Без названия.jpg" />
+    <None Include="Resources\iStock-949118068_d_8503.jpg" />
+    <None Include="Resources\iStock-949118068_d_8502.jpg" />
+    <None Include="Resources\knigi-min_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cover2conteiner1.jpg" />
+    <None Include="Resources\cover2conteiner.jpg" />
+    <None Include="Resources\65-best-books4.jpg" />
+    <None Include="Resources\Без названия %281%291.jpg" />
+    <None Include="Resources\empty-wood-shelf-on-white-background_64749-946.jpg" />
+    <None Include="Resources\covermainform3.jpg" />
+    <None Include="Resources\covermainform2.jpg" />
+    <None Include="Resources\knigi-min_22.jpg" />
+    <None Include="Resources\coverMainForm.jpg" />
+    <None Include="Resources\coverAddBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dataFile.xml" />
+    <Content Include="dataFile2.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

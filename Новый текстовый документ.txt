@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Book>
+<Author>Александр Пушкин</Author>
+<Name>Капитанская Дочка</Name>
+<YearPublish>1836</YearPublish>
+<PublishingHouse>Азбука</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_2.jpg</PathPicture>
+<Category>Детская литература</Category>
+<SubCategory>Приключения </SubCategory>
+</Book>
+<Book>
+<Author>Михаил Лермонтов</Author>
+<Name>Герой нашего времени</Name>
+<YearPublish>1840</YearPublish>
+<PublishingHouse>АСТ</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_8.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы </SubCategory>
+</Book>
+<Book>
+<Author>Михаил Булгаков</Author>
+<Name>Мастер и Маргарита</Name>
+<YearPublish>1966</YearPublish>
+<PublishingHouse>Азбука</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\cover1_w600.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Николай Гоголь</Author>
+<Name>Мёртвые души</Name>
+<YearPublish>1842</YearPublish>
+<PublishingHouse>АСТ</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Поэма</SubCategory>
+</Book>
+<Book>
+<Author>Михаил Толстой</Author>
+<Name>Анна Каренина</Name>
+<YearPublish>1877</YearPublish>
+<PublishingHouse>АСТ</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_1.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Стивен Хоккинг</Author>
+<Name>Краткая история времени</Name>
+<YearPublish>1988</YearPublish>
+<PublishingHouse>АСТ</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\A_Brief_History_of_Time_rus.jpg</PathPicture>
+<Category>Научная литература</Category>
+<SubCategory>Приключения</SubCategory>
+</Book>
+<Book>
+<Author>Джоан Роулинг</Author>
+<Name>Гарри Поттер и философский камень</Name>
+<YearPublish>1997</YearPublish>
+<PublishingHouse>Росмэн</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_2.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Джоан Роулинг</Author>
+<Name>Гарри Поттер и узник Азкабана</Name>
+<YearPublish>1999</YearPublish>
+<PublishingHouse>Росмэн</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_3.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Джоан Роулинг</Author>
+<Name>Гарри Поттер и Тайная комната</Name>
+<YearPublish>1998</YearPublish>
+<PublishingHouse>Росмэн</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_4.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Джоан Роулинг</Author>
+<Name>Гарри Поттер и Орден Феникса</Name>
+<YearPublish>2003</YearPublish>
+<PublishingHouse>Росмэн</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_5.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Джоан Роулинг</Author>
+<Name>Гарри Поттер и Принц-полукровка</Name>
+<YearPublish>2005</YearPublish>
+<PublishingHouse>Росмэн</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_7.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Джоан Роулинг</Author>
+<Name>Гарри Поттер и Дары Смерти</Name>
+<YearPublish>2007</YearPublish>
+<PublishingHouse>Росмэн</PublishingHouse>
+ 
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_9.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Любовные романы</SubCategory>
+</Book>
+<Book>
+<Author>Джон Рональд</Author>
+<Name>Братство Кольца</Name>
+<YearPublish>1954</YearPublish>
+<PublishingHouse>Азбука </PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_10.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Фантастика</SubCategory>
+</Book>
+<Book>
+<Author>Джон Рональд</Author>
+<Name>Две крепости</Name>
+<YearPublish>1954</YearPublish>
+<PublishingHouse>Азбука </PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_11.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Фантастика</SubCategory>
+</Book>
+<Book>
+<Author>Джон Рональд</Author>
+<Name>Возвращение короля</Name>
+<YearPublish>1955</YearPublish>
+<PublishingHouse>Азбука </PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_12.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Фантастика </SubCategory>
+</Book>
+<Book>
+<Author>Джон Рональд</Author>
+<Name>Властелин колец</Name>
+<YearPublish>1954</YearPublish>
+<PublishingHouse>Азбука </PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\standartbook.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Фантастика</SubCategory>
+</Book>
+<Book>
+<Author>Льюис Кэрролл</Author>
+<Name>Алиса в Зазеркалье</Name>
+<YearPublish>1865</YearPublish>
+<PublishingHouse>Азбука</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_14.jpg</PathPicture>
+<Category>Детская литература</Category>
+<SubCategory>Приключения</SubCategory>
+</Book>
+<Book>
+<Author>Наталья Каменских</Author>
+<Name>Три богатыря и принцесса Египта</Name>
+<YearPublish>2019</YearPublish>
+<PublishingHouse>Комсомольская правда</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_16.jpg</PathPicture>
+<Category>Художественная литература</Category>
+<SubCategory>Приключения</SubCategory>
+</Book>
+<Book>
+<Author>Дмитрий Любченко</Author>
+<Name>Три богатыря и Чурило Пленкович</Name>
+<YearPublish>2017</YearPublish>
+<PublishingHouse>Алгоритм</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_15.jpg</PathPicture>
+<Category>Детская литература</Category>
+<SubCategory>Приключения</SubCategory>
+</Book>
+<Book>
+<Author>Николай Шмигалёв</Author>
+<Name>Почти как три богатыря</Name>
+<YearPublish>2011</YearPublish>
+<PublishingHouse>Литагент</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\346226.jpg</PathPicture>
+<Category>Детская литература</Category>
+<SubCategory>Приключения</SubCategory>
+</Book>
+<Book>
+<Author>Михаил Александрович</Author>
+<Name>Тысяча и одна ночь</Name>
+<YearPublish>1992</YearPublish>
+<PublishingHouse>Иностранка</PublishingHouse>
+<PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_17.jpg</PathPicture>
+<Category>Детская литература</Category>
+<SubCategory>Приключения</SubCategory>
+</Book>
+</ArrayOfBook>

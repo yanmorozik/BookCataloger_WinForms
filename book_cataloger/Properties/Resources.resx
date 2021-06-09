@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label_ChoosePicture" xml:space="preserve">
+    <value>Choose a picture</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="5d37b4b4335b75009922131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5d37b4b4335b75009922131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empty-wood-shelf-on-white-background_64749-946" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empty-wood-shelf-on-white-background_64749-946.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="covermainform2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\covermainform2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knigi-makro-fon-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\knigi-makro-fon-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="65-best-books" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65-best-books.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coverAddBook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coverAddBook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="covermainform3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\covermainform3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_4784329-stock-photo-nice-room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_4784329-stock-photo-nice-room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_ChooseSubcategory" xml:space="preserve">
+    <value>Choose subcategory</value>
+  </data>
+  <data name="unnamed (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_EnterAutor" xml:space="preserve">
+    <value>Enter autor</value>
+  </data>
+  <data name="images (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="65-best-books3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65-best-books3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new-3d-geometry-hi-res-wallpaper-fresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-3d-geometry-hi-res-wallpaper-fresh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageNotCapitalLetter" xml:space="preserve">
+    <value>Check:
+- All fields except "year of publication" must be words starting with a Capital letter!
+- The year of publication must be no more than 2020</value>
+  </data>
+  <data name="Button_BackToView" xml:space="preserve">
+    <value>Return to view all books</value>
+  </data>
+  <data name="standartbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\standartbook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_ChooseCategory" xml:space="preserve">
+    <value>Choose category</value>
+  </data>
+  <data name="65-best-books1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65-best-books1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_DeleteBook" xml:space="preserve">
+    <value>Delete choose book</value>
+  </data>
+  <data name="MessageFillAllFields" xml:space="preserve">
+    <value>Fill all fields</value>
+  </data>
+  <data name="Без названия (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (4)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iStock-949118068_d_850" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iStock-949118068_d_8502.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Без названия (4)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (4)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Без названия" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="TextBox_2Item_Adventure" xml:space="preserve">
+    <value>Adventure</value>
+  </data>
+  <data name="Label_YearPublication" xml:space="preserve">
+    <value>Year publication</value>
+  </data>
+  <data name="TextBox_2Item_RomanceNovels" xml:space="preserve">
+    <value>Romance novels</value>
+  </data>
+  <data name="Без названия (2)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Без названия (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (5).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Без названия (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBoxItem_ScientificLiterature" xml:space="preserve">
+    <value>Scientific literature</value>
+  </data>
+  <data name="Без названия (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_EditBook" xml:space="preserve">
+    <value>Edit book</value>
+  </data>
+  <data name="22b18ce70e474e7c961da7540a90be97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22b18ce70e474e7c961da7540a90be97.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_EnterName" xml:space="preserve">
+    <value>Enter name book</value>
+  </data>
+  <data name="Label_Autor" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="Без названия (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cover_Books-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cover_Books-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBox_2Item_Poetry" xml:space="preserve">
+    <value>Poetry</value>
+  </data>
+  <data name="TextBoxItem_ChildrenLiterature" xml:space="preserve">
+    <value>Children's literature</value>
+  </data>
+  <data name="knigi-min_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\knigi-min_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-fresh-hand-drawn-book-dot-advertising-background-backgroundfreshsimplecirclebookhand-paintedlovelyknow-how-image_73514" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-fresh-hand-drawn-book-dot-advertising-background-backgroundfreshsimplecirclebookhand-paintedlovelyknow-how-image_73514.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBox_2Item_Detectives" xml:space="preserve">
+    <value>Detectives</value>
+  </data>
+  <data name="Button_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Без названия (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="iStock-949118068_d_8501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iStock-949118068_d_8503.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBox_2Item_Prose" xml:space="preserve">
+    <value>Prose</value>
+  </data>
+  <data name="TextBox_2Item_Thrillers" xml:space="preserve">
+    <value>Thrillers</value>
+  </data>
+  <data name="Без названия (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Choose" xml:space="preserve">
+    <value>Choose</value>
+  </data>
+  <data name="Label_AddCoverBook" xml:space="preserve">
+    <value>Add сover book</value>
+  </data>
+  <data name="книги1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\книги1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBox_2Item_Comics&amp;Manga" xml:space="preserve">
+    <value>Comics and manga</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cover_Books-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cover_Books-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="65-best-books2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65-best-books2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5d37b4b4335b7500992213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5d37b4b4335b7500992213.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBoxItem_Journalism&amp;Periodicals" xml:space="preserve">
+    <value>Journalism and periodicals</value>
+  </data>
+  <data name="knigi-min_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\knigi-min_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Без названия (2)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (2)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coverMainForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coverMainForm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBoxItem_EducationalLiterature" xml:space="preserve">
+    <value>Educational literature</value>
+  </data>
+  <data name="depositphotos_23835301-stock-illustration-seamless-book-pattern-or-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_23835301-stock-illustration-seamless-book-pattern-or-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_PublishinghHouse" xml:space="preserve">
+    <value>Publishing house</value>
+  </data>
+  <data name="Без названия (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBox_2Item_Fantasy" xml:space="preserve">
+    <value>Fantasy</value>
+  </data>
+  <data name="Label_Note" xml:space="preserve">
+    <value>(if no picture is selected, the default picture is set)</value>
+  </data>
+  <data name="Label_SearchTitle" xml:space="preserve">
+    <value>Enter the data on which you want to search</value>
+  </data>
+  <data name="TextBox_2Item_Horror" xml:space="preserve">
+    <value>Horror</value>
+  </data>
+  <data name="depositphotos_7717192-stock-photo-old-book-on-a-wooden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_7717192-stock-photo-old-book-on-a-wooden.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBoxItem_Fiction" xml:space="preserve">
+    <value>Fiction</value>
+  </data>
+  <data name="65-best-books4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65-best-books4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_Subcategory" xml:space="preserve">
+    <value>Subcategory</value>
+  </data>
+  <data name="Button_AddBook" xml:space="preserve">
+    <value>Add Book</value>
+  </data>
+  <data name="Label_EnterYearPublishing" xml:space="preserve">
+    <value>Enter year publishing</value>
+  </data>
+  <data name="Без названия (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="books21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="10-open-libraries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10-open-libraries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e7b075af53a46b210fb5a13c2771cf91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e7b075af53a46b210fb5a13c2771cf91.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Без названия (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Без названия (3)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageChooseBook" xml:space="preserve">
+    <value>Choose Book</value>
+  </data>
+  <data name="книги" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\книги.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="izd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\izd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_EnterPublishinghHouse" xml:space="preserve">
+    <value>Enter publishingh house</value>
+  </data>
+  <data name="Button_SearchBook" xml:space="preserve">
+    <value>Search desired book</value>
+  </data>
+  <data name="cover2conteiner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cover2conteiner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cover2conteiner1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cover2conteiner1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

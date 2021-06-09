@@ -1,0 +1,32 @@
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\bin\Debug\book_cataloger.exe.config
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\bin\Debug\book_cataloger.exe
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\bin\Debug\book_cataloger.pdb
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.csprojAssemblyReference.cache
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Properties.Resources.resources
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.csproj.GenerateResource.cache
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.csproj.CoreCompileInputs.cache
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.exe
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.pdb
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.MainForm.resources
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.AddBookForm.resources
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Views.FindBookForm.resources
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Properties.Images.resources
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Properties.Resources.ru-Ru.resources
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\bin\Debug\ru-Ru\book_cataloger.resources.dll
+C:\PROGRAMMING\C#\3 семестр\курсавая\Book_cataloger\book_cataloger\obj\Debug\ru-Ru\book_cataloger.resources.dll
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\bin\Debug\book_cataloger.exe.config
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\bin\Debug\book_cataloger.exe
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\bin\Debug\book_cataloger.pdb
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\bin\Debug\ru-Ru\book_cataloger.resources.dll
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Properties.Resources.resources
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.AddBookForm.resources
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Views.FindBookForm.resources
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.MainForm.resources
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Properties.Images.resources
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.Properties.Resources.ru-Ru.resources
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\ru-Ru\book_cataloger.resources.dll
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.exe
+C:\Users\User\Desktop\Book_cataloger\book_cataloger\obj\Debug\book_cataloger.pdb

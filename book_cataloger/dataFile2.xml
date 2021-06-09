@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Author>Александр Пушкин</Author>
+    <Name>Капитанская Дочка</Name>
+    <YearPublish>1836</YearPublish>
+    <PublishingHouse>Азбука</PublishingHouse>
+    <PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_2.jpg</PathPicture>
+    <Category>Детская литература</Category>
+    <SubCategory>Приключения </SubCategory>
+  </Book>
+  <Book>
+    <Author>Пушкин</Author>
+    <Name>Сказака о рыбаке и рыбке</Name>
+    <YearPublish>2020</YearPublish>
+    <PublishingHouse>АСТ</PublishingHouse>
+    <PathPicture>C:\Users\User\Desktop\cover books\Bez_Nazvania_7.jpg</PathPicture>
+    <Category>Художественная литература</Category>
+    <SubCategory>Любовные романы</SubCategory>
+  </Book>
+</ArrayOfBook>
